@@ -149,6 +149,7 @@ button, a, i:hover{
 
 .container-fullwidth.one .menu ul li a{
   margin: 0 20px;
+  color: #33475b;
 }
 /* FINE HEADER */
 
@@ -165,20 +166,18 @@ button, a, i:hover{
 .container-fullwidth.two .container p{
   float: left;
   color: #ffffff;
-}
-
-.container-fullwidth.two .container p strong{
-
+  margin-bottom: 20px;
 }
 
 .container-fullwidth.two .container button{
   float: right;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 5px;
   color: #425b76;
   border-style: none;
   border-width: 1px;
   background-color: white;
+  font-weight: 700;
 }
 
 
