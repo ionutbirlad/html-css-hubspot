@@ -17,6 +17,10 @@
   margin: 0 auto;
 }
 
+button, a, i:hover{
+  cursor: pointer;
+}
+
 /* INIZIO PARTE FIXED */
 .container-fullwidth.fixed{
   background-color: #f5f8fa;
@@ -31,12 +35,11 @@
   width: 15%;
   /* height: 70px; */
   float: left;
-  text-align: left;
+  text-align: center;
   line-height: 70px;
 }
 
 .fixed .container .language p{
-  margin-left: 20px;
   color: #33475b;
 }
 
@@ -72,7 +75,6 @@
 
 .fixed .container .contact-us a{
   text-decoration: none;
-  margin-left: 20px;
   color: #33475b;
 }
 
@@ -109,5 +111,76 @@
   border-width: 1px;
   background-color: #ff7a59;
 }
-
 /* FINE PARTE FIXED */
+
+/* INIZIO HEADER */
+.container-fullwidth.one{
+
+}
+
+.container-fullwidth.one .logo{
+  width: 15%;
+  /* height: 100px; */
+  float: left;
+  text-align: center;
+  line-height: 70px;
+}
+
+.container-fullwidth.one .logo img{
+  margin-top: 20px;
+}
+
+.container-fullwidth.one .menu{
+  width: 85%;
+  /* height: 100px; */
+  float: left;
+  line-height: 70px;
+  text-align: right;
+}
+
+.container-fullwidth.one .menu ul{
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.container-fullwidth.one .menu ul li{
+  display: inline-block;
+}
+
+.container-fullwidth.one .menu ul li a{
+  margin: 0 20px;
+}
+/* FINE HEADER */
+
+/* INIZIO PARTE PROMOZIONALE */
+.container-fullwidth.two{
+  background-color: #425b76;
+}
+
+.container-fullwidth.two .container{
+  padding: 20px;
+  line-height: 25px;
+}
+
+.container-fullwidth.two .container p{
+  float: left;
+  color: #ffffff;
+}
+
+.container-fullwidth.two .container p strong{
+
+}
+
+.container-fullwidth.two .container button{
+  float: right;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #425b76;
+  border-style: none;
+  border-width: 1px;
+  background-color: white;
+}
+
+
+
+/* FINE INIZIO PARTE PROMOZIONALE */
