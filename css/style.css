@@ -179,7 +179,61 @@ button, a, i:hover{
   background-color: white;
   font-weight: 700;
 }
+/* FINE PARTE PROMOZIONALE */
+
+/* INIZIO JUMBOTRON */
+.container-fullwidth.three{
+  background-color: #fff3ee;
+  border-bottom: 3px solid #33475b;
+  background-image: url("../img/jumbowall.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.container-fullwidth.three .container{
+  padding-bottom: 300px;
+}
+
+.container-fullwidth.three .container .jumbotron{
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.container-fullwidth.three .container .jumbotron h1{
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bolder;
+  color: #33475b;
+  margin-bottom: 30px;
+}
+
+.container-fullwidth.three .container .jumbotron p{
+  font-weight: lighter;
+  color: #33475b;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.three .container .jumbotron button{
+  padding: 25px 65px;
+  border-radius: 5px;
+  color: white;
+  border-style: solid;
+  border-color: #ff7a59;
+  border-width: 1px;
+  background-color: #ff7a59;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.three .container .jumbotron small{
+  color: #33475b;
+  display: block;
+}
 
 
 
-/* FINE INIZIO PARTE PROMOZIONALE */
+/* FINE JUMBOTRON */
