@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after{
@@ -9,3 +10,104 @@
   display: table;
   clear: both;
 }
+
+.container{
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* INIZIO PARTE FIXED */
+.container-fullwidth.fixed{
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.container-fullwidth.fixed .container{
+  font-weight: 500;
+}
+
+.fixed .container .language{
+  width: 15%;
+  height: 70px;
+  float: left;
+  text-align: left;
+  line-height: 70px;
+}
+
+.fixed .container .language p{
+  margin-left: 20px;
+  color: #33475b;
+}
+
+.fixed .container .language p::before{
+  content: "";
+  background-image: url("../img/globe.png");
+  display: inline-block;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.fixed .container .language p::after{
+  content: "";
+  background-image: url("../img/downarrow.png");
+  display: inline-block;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.fixed .container .contact-us{
+  width: 15%;
+  height: 70px;
+  float: left;
+  text-align: left;
+  line-height: 70px;
+}
+
+.fixed .container .contact-us a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: #33475b;
+}
+
+.fixed .container .account-mng{
+  width: 70%;
+  height: 70px;
+  float: left;
+  text-align: right;
+  line-height: 70px;
+  letter-spacing: 10px;
+  padding-right: 20px;
+}
+
+.fixed .container .account-mng i{
+  color: #09a7c0;
+}
+
+.fixed .container .account-mng .log-in{
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ff7a59;
+  border-style: solid;
+  border-color: #ff7a59;
+  border-width: 1px;
+  background-color: white;
+}
+
+.fixed .container .account-mng .get-hub{
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border-style: solid;
+  border-color: #ff7a59;
+  border-width: 1px;
+  background-color: #ff7a59;
+}
+
+/* FINE PARTE FIXED */
