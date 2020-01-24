@@ -726,5 +726,78 @@ button, a, i:hover{
 }
 /* Fine sesto blocco main */
 
+/* Inizio settimano blocco main */
+.container-fullwidth.ten{
+  background-color: #33475b;
+}
+
+.container-fullwidth.ten .container{
+  border-bottom: 1px solid #cbd6e2;
+  padding-bottom: 40px;
+}
+
+.container-fullwidth.ten .container section{
+  text-align: left;
+  float: left;
+  width: 25%;
+  padding-top: 90px;
+  margin-bottom: 40px;
+}
+
+.container-fullwidth.ten .container section h4{
+  color: #ffffff;
+}
+
+.container-fullwidth.ten .container section ul{
+  list-style: none;
+}
+
+.container-fullwidth.ten .container section ul li{
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.container-fullwidth.ten .container section ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container-fullwidth.ten .container section ul li #special::after{
+  content: "";
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 15px;
+  height: 30px;
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.container-fullwidth.ten .container section button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #33475b;
+  border-style: none;
+  background-color: white;
+  margin: 10px 0 25px 0;
+}
+
+.container-fullwidth.ten .container section .icons{
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #cbd6e2;
+}
+
+.container-fullwidth.ten .container .bottom{
+  text-align: center;
+}
+
+.container-fullwidth.ten .container .bottom p{
+  display: inline;
+  padding-right: 20px;
+  color: #cbd6e2;
+}
+/* Fine settimano blocco main */
 
 /* FINE MAIN */
