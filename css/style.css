@@ -623,7 +623,7 @@ button, a, i:hover{
 
 /* Inizio quinto blocco main */
 .container-fullwidth.eight{
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .container-fullwidth.eight .container{
@@ -663,6 +663,68 @@ button, a, i:hover{
   padding: 30px 20px;
 }
 /* Fine quinto blocco main */
+
+/* Inizio sesto blocco main */
+.container-fullwidth.nine{
+  background-color: #ffffff;
+}
+
+.container-fullwidth.nine .container{
+  padding-bottom: 150px;
+}
+
+.container-fullwidth.nine .container .left{
+  width: 60%;
+  padding-top: 100px;
+  padding-left: 30px;
+  float: left;
+}
+
+.container-fullwidth.nine .container .left h1{
+  font-size: 35px;
+  line-height: 70px;
+  font-weight: bolder;
+  color: #33475b;
+  margin-bottom: 30px;
+}
+
+.container-fullwidth.nine .container .left p{
+  font-weight: lighter;
+  color: #33475b;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.nine .container .left button{
+  padding: 25px 65px;
+  border-radius: 5px;
+  color: white;
+  border-style: solid;
+  border-color: #ff7a59;
+  border-width: 1px;
+  background-color: #ff7a59;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.nine .container .left small{
+  color: #33475b;
+  display: block;
+}
+
+.container-fullwidth.nine .container .right{
+  text-align: center;
+  float: left;
+  width: 40%;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.container-fullwidth.nine .container .right img{
+  width: 350px;
+}
+/* Fine sesto blocco main */
 
 
 /* FINE MAIN */
