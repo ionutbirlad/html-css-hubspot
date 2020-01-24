@@ -46,25 +46,28 @@ button, a, i:hover{
 
 .fixed .container .language p{
   color: #33475b;
+  font-size: 14px;
 }
 
 .fixed .container .language p::before{
   content: "";
-  background-image: url("../img/globe.png");
+  background-image: url("https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg");
+  background-repeat: no-repeat;
   display: inline-block;
-  background-size: 20px;
-  height: 20px;
-  width: 20px;
+  background-size: 15px;
+  height: 25px;
+  width: 15px;
   margin-right: 10px;
   vertical-align: middle;
 }
 
 .fixed .container .language p::after{
   content: "";
-  background-image: url("../img/downarrow.png");
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
   display: inline-block;
-  background-size: 20px;
-  height: 20px;
+  background-size: 15px;
+  height: 30px;
   width: 20px;
   vertical-align: middle;
   margin-left: 10px;
@@ -81,6 +84,7 @@ button, a, i:hover{
 .fixed .container .contact-us a{
   text-decoration: none;
   color: #33475b;
+  font-size: 14px;
 }
 
 .fixed .container .account-mng{
@@ -398,6 +402,7 @@ button, a, i:hover{
 .container-fullwidth.six .container .card-one #content{
   background-color: #ffffff;
   text-align: center;
+  margin-bottom: 150px;
 }
 
 .container-fullwidth.six .container .card-one #content img{
@@ -425,6 +430,7 @@ button, a, i:hover{
 .container-fullwidth.six .container .card-two #content{
   background-color: #ffffff;
   text-align: center;
+  margin-bottom: 150px;
 }
 
 .container-fullwidth.six .container .card-two #content img{
@@ -452,6 +458,7 @@ button, a, i:hover{
 .container-fullwidth.six .container .card-three #content{
   background-color: #ffffff;
   text-align: center;
+  margin-bottom: 150px;
 }
 
 .container-fullwidth.six .container .card-three #content img{
@@ -526,6 +533,39 @@ button, a, i:hover{
 }
 /* Fine terzo blocco main */
 
+/* Quarto blocco main */
+.container-fullwidth.seven{
+  background-color: #00adb4;
+}
+
+.container-fullwidth.seven .container{
+  text-align: center;
+  padding-top: 140px;
+}
+
+.container-fullwidth.seven .container h1{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.container-fullwidth.seven .container p{
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece{
+  width: 25%;
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+
+
+
+/* Fine quarto blocco main */
 
 
 
