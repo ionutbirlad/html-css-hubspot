@@ -621,7 +621,48 @@ button, a, i:hover{
 }
 /* Fine quarto blocco main */
 
+/* Inizio quinto blocco main */
+.container-fullwidth.eight{
+  padding-bottom: 100px;
+}
 
+.container-fullwidth.eight .container{
+  padding-top: 100px;
+}
+
+.container-fullwidth.eight .container #one{
+  width: 40%;
+  float: left;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.container-fullwidth.eight .container #one p{
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #33475b;
+}
+
+.container-fullwidth.eight .container #one small{
+  font-size: 18px;
+  line-height: 30px;
+  color: #33475b;
+}
+
+.container-fullwidth.eight .container #two{
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.container-fullwidth.eight .container #two img{
+  width: 150px;
+  float: left;
+  padding: 30px 20px;
+}
+/* Fine quinto blocco main */
 
 
 /* FINE MAIN */
