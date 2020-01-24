@@ -257,7 +257,7 @@ button, a, i:hover{
 
   .container-fullwidth.four .container p{
     color: #33475b;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 /* Fine primo blocco main */
 
@@ -270,34 +270,94 @@ button, a, i:hover{
   background-color: #ffffff;
 }
 
+.container-fullwidth.five .container:hover{
+  transition: 0.4s;
+  transform: scale(103%);
+}
+
 .container-fullwidth.five .container .section-one{
   float: left;
   width: 30%;
-  border: 1px solid black;
-  background-color: red;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 70px;
 }
 
 .container-fullwidth.five .container .section-one img{
   width: 150px;
-  margin-bottom: 80px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 10px;
+  display: inline;
 }
 
-.container-fullwidth.five .container .section-one .btn-crm{
-  padding: 5px 10px;
+.container-fullwidth.five .container .section-one button{
+  padding: 10px 15px;
   border-radius: 5px;
   color: white;
   border-style: solid;
   border-color: #ff7a59;
   border-width: 1px;
   background-color: #ff7a59;
+  position: absolute;
+  top: 210px;
+  left: 60%;
+  transform: translatex(-50%);
 }
 
 .container-fullwidth.five .container .section-two{
   float: left;
   width: 70%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.container-fullwidth.five .container .section-two .features-one{
+  text-align: left;
+
+  padding-left: 50px;
+}
+
+.container-fullwidth.five .container .section-two .features-one h4{
+  color: #33475b;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.five .container .section-two .features-one p{
+  color: #33475b;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.container-fullwidth.five .container .section-two .features-two{
+  text-align: left;
+  padding-left: 50px;
+}
+
+.container-fullwidth.five .container .section-two .features-two p{
+  color: #33475b;
+  margin-bottom: 15px;
+}
+
+.container-fullwidth.five .container .section-two .features-two ul{
+  font-size: 14px;
+  color: #33475b;
+}
+
+.container-fullwidth.five .container .section-two .features-two ul li{
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.container-fullwidth.five .container .section-two .features-two ul li::before{
+  content: "";
+  background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
+  display: inline-block;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 
