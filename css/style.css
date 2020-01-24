@@ -264,6 +264,7 @@ button, a, i:hover{
 /* Secondo blocco main */
 .container-fullwidth.five{
   background-color: #f5f8fa;
+  padding-bottom: 40px;
 }
 
 .container-fullwidth.five .container{
@@ -332,6 +333,15 @@ button, a, i:hover{
 .container-fullwidth.five .container .section-two .features-two{
   text-align: left;
   padding-left: 50px;
+}
+
+.container-fullwidth.five .container .section-two .features-two hr{
+  float: right;
+  width: 70%;
+  position: relative;
+  top: 7.5px ;
+  right: 30px;
+  color: #33475b70;
 }
 
 .container-fullwidth.five .container .section-two .features-two p{
