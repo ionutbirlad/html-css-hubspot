@@ -536,6 +536,7 @@ button, a, i:hover{
 /* Quarto blocco main */
 .container-fullwidth.seven{
   background-color: #00adb4;
+  padding-bottom: 140px;
 }
 
 .container-fullwidth.seven .container{
@@ -558,13 +559,66 @@ button, a, i:hover{
 .container-fullwidth.seven .container .subcontainer .piece{
   width: 25%;
   height: 200px;
-  background-color: red;
-  border: 1px solid black;
+  float: left;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding-top: 30px;
 }
 
+.container-fullwidth.seven .container .subcontainer .piece.one{
+  border-top: none;
+  border-left: none;
+}
 
+.container-fullwidth.seven .container .subcontainer .piece.two{
+  border-top: none;
+}
 
+.container-fullwidth.seven .container .subcontainer .piece.three{
+  border-top: none;
+}
 
+.container-fullwidth.seven .container .subcontainer .piece.four{
+  border-top: none;
+  border-right: none;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece.five{
+  border-bottom: none;
+  border-left: none;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece.six{
+  border-bottom: none;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece.seven{
+  border-bottom: none;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece.eight{
+  border-bottom: none;
+  border-right: none;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece p{
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece p::after{
+  content: "+";
+  font-size: 15px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.container-fullwidth.seven .container .subcontainer .piece small{
+  color: #ffffff;
+}
 /* Fine quarto blocco main */
 
 
