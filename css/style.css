@@ -25,6 +25,11 @@ button, a, i:hover{
 .container-fullwidth.fixed{
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .container-fullwidth.fixed .container{
@@ -115,7 +120,7 @@ button, a, i:hover{
 
 /* INIZIO HEADER */
 .container-fullwidth.one{
-
+  margin-top: 75px;
 }
 
 .container-fullwidth.one .logo{
@@ -268,10 +273,14 @@ button, a, i:hover{
 }
 
 .container-fullwidth.five .container{
+  padding-left: 30px;
+}
+
+.container-fullwidth.five .container .content{
   background-color: #ffffff;
 }
 
-.container-fullwidth.five .container:hover{
+.container-fullwidth.five .container .content:hover{
   transition: 0.4s;
   transform: scale(103%);
 }
@@ -288,7 +297,7 @@ button, a, i:hover{
 .container-fullwidth.five .container .section-one img{
   width: 150px;
   margin-bottom: 10px;
-  display: inline;
+  /* display: inline; */
 }
 
 .container-fullwidth.five .container .section-one button{
@@ -369,10 +378,153 @@ button, a, i:hover{
   margin-right: 10px;
   vertical-align: middle;
 }
-
-
-
 /* Fine secondo blocco main */
+
+/* Terzo blocco main */
+.container-fullwidth.six{
+  background-color: #f5f8fa;
+}
+
+.container-fullwidth.six .container{
+
+}
+
+.container-fullwidth.six .container .card-one{
+  width: 33.3333%;
+  float: left;
+  padding-left: 30px;
+}
+
+.container-fullwidth.six .container .card-one #content{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container-fullwidth.six .container .card-one #content img{
+  width: 150px;
+  margin-top: 40px;
+}
+
+.container-fullwidth.six .container .card-one #content h2{
+  color: #33475b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.six .container .card-one #content p{
+  color: #33475b;
+  font-size: 15px;
+}
+
+.container-fullwidth.six .container .card-two{
+  width: 33.3333%;
+  float: left;
+  padding-left: 30px;
+}
+
+.container-fullwidth.six .container .card-two #content{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container-fullwidth.six .container .card-two #content img{
+  width: 150px;
+  margin-top: 40px;
+}
+
+.container-fullwidth.six .container .card-two #content h2{
+  color: #33475b;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.six .container .card-two #content p{
+  color: #33475b;
+  font-size: 15px;
+}
+
+.container-fullwidth.six .container .card-three{
+  width: 33.3333%;
+  float: left;
+  padding-left: 30px;
+}
+
+.container-fullwidth.six .container .card-three #content{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container-fullwidth.six .container .card-three #content img{
+  width: 150px;
+  margin-top: 30px;
+}
+
+.container-fullwidth.six .container .card-three #content h2{
+  color: #33475b;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.container-fullwidth.six .container .card-three #content p{
+  color: #33475b;
+  font-size: 15px;
+}
+
+.container-fullwidth.six .container hr{
+  width: 70%;
+  color: #33475b70;
+  margin: 30px auto;
+}
+
+.container-fullwidth.six .container #pf{
+  color: #33475b;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.container-fullwidth.six .container ul{
+  list-style: none;
+  text-align: left;
+  position: relative;
+  left: 50px;
+}
+
+.container-fullwidth.six .container ul li{
+  font-size: 14px;
+  color: #33475b;
+}
+
+.container-fullwidth.six .container ul li::before{
+  content: "";
+  background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
+  display: inline-block;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.container-fullwidth.six .container .button{
+  text-align: center;
+  padding: 30px;
+}
+
+.container-fullwidth.six .container .button button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  border-style: solid;
+  border-color: #ff7a59;
+  border-width: 1px;
+  background-color: #ff7a59;
+}
+
+.container-fullwidth.six .container #content:hover{
+  transform: scale(103%);
+  transition: 0.4s;
+}
+/* Fine terzo blocco main */
 
 
 
